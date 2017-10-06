@@ -1,0 +1,72 @@
+
+
+
+body{
+	/*Para alinear texto e imágenes*/
+	text-align: center;
+	background-color: #333333 ; 
+	margin-left: 100px;
+	margin-right: 100px;
+
+	
+}
+.cuadrado_color{ /*con un punto entiende que estamos metiéndonos en un div class .nombre-de-class */
+	background-color: #333333 ; /* tb puede ser con nombre en inglés, o con rgb(00, 00, 00)*/
+	padding-bottom: 20px;
+}
+
+
+.informacion{
+	border-top: 1px dashed #cc3366;
+}
+/*Características del párrafo*/
+P{
+	color: #009999;
+	font-family:'Architects Daughter', cursive;
+	font-size: large;
+}
+
+
+/*Cambiar tipografía*/
+h1{
+	font-family: 'Merienda One', cursive;
+}
+
+h3{
+	color: #ffffff;
+}
+
+h4{
+	color:#cc3366;
+}
+
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+
+
+
+/*Cambiar el tamaño de todas las imágenes*/
+img{
+	width: ;	/*ancho de imagen, en px */
+	height: ; 	/*generalmente no se le da altura, porque se deforma*/
+}
+
+/*Para cambiar características de una sola imagen*/
+.foto-grupo{
+	width: ;	/*ancho de imagen*/
+	height: ; 	/*generalmente no se le da altura, porque se deforma*/
+	padding-bottom: 20px;
+}
+
+
+/*Hacer el separador*/
+.enlaces{
+	border-top: 1px dashed #cc3366;
+}
